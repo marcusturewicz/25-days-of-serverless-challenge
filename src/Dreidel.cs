@@ -25,16 +25,16 @@ namespace Day01ServerlessDreidel
             switch(number)
             {
                 case 1: 
-                    value = "נ (Nun)"; 
+                    value = "נ"; 
                     break;
                 case 2: 
-                    value = "ג (Gimmel)"; 
+                    value = "ג"; 
                     break;
                 case 3: 
-                    value = "ה (Hay)"; 
+                    value = "ה"; 
                     break;
                 case 4: 
-                    value = "ש (Shin)";
+                    value = "ש";
                     break;
                 default:
                     throw new ArgumentException(nameof(number));
