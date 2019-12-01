@@ -1,0 +1,299 @@
+{
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "Delay": {
+                "inputs": {
+                    "interval": {
+                        "count": 25,
+                        "unit": "Minute"
+                    }
+                },
+                "runAfter": {
+                    "Post_message": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Wait"
+            },
+            "Delay_2": {
+                "inputs": {
+                    "interval": {
+                        "count": 5,
+                        "unit": "Minute"
+                    }
+                },
+                "runAfter": {
+                    "Post_message_2": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Wait"
+            },
+            "Delay_3": {
+                "inputs": {
+                    "interval": {
+                        "count": 5,
+                        "unit": "Minute"
+                    }
+                },
+                "runAfter": {
+                    "Post_message_3": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Wait"
+            },
+            "Delay_4": {
+                "inputs": {
+                    "interval": {
+                        "count": 4,
+                        "unit": "Minute"
+                    }
+                },
+                "runAfter": {
+                    "Post_message_4": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Wait"
+            },
+            "Delay_5": {
+                "inputs": {
+                    "interval": {
+                        "count": 1,
+                        "unit": "Minute"
+                    }
+                },
+                "runAfter": {
+                    "Post_message_5": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Wait"
+            },
+            "Delay_6": {
+                "inputs": {
+                    "interval": {
+                        "count": 5,
+                        "unit": "Minute"
+                    }
+                },
+                "runAfter": {
+                    "Post_message_6": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Wait"
+            },
+            "Delay_7": {
+                "inputs": {
+                    "interval": {
+                        "count": 4,
+                        "unit": "Minute"
+                    }
+                },
+                "runAfter": {
+                    "Post_message_7": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Wait"
+            },
+            "Post_message": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['slack']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/chat.postMessage",
+                    "queries": {
+                        "channel": "CQSFHEWD8",
+                        "text": "Start the coffee, set out 4 cups. You have 25 minutes."
+                    }
+                },
+                "runAfter": {},
+                "type": "ApiConnection"
+            },
+            "Post_message_2": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['slack']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/chat.postMessage",
+                    "queries": {
+                        "channel": "CQSFHEWD8",
+                        "text": "Pour two cups. You have 5 minutes."
+                    }
+                },
+                "runAfter": {
+                    "Delay": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Post_message_3": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['slack']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/chat.postMessage",
+                    "queries": {
+                        "channel": "CQSFHEWD8",
+                        "text": "Light the candles. You have 5 minutes."
+                    }
+                },
+                "runAfter": {
+                    "Delay_2": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Post_message_4": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['slack']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/chat.postMessage",
+                    "queries": {
+                        "channel": "CQSFHEWD8",
+                        "text": "Deliver the coffee to Mom and Dad. You have 4 minutes."
+                    }
+                },
+                "runAfter": {
+                    "Delay_3": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Post_message_5": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['slack']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/chat.postMessage",
+                    "queries": {
+                        "channel": "CQSFHEWD8",
+                        "text": "Return to kitchen, fill two more cups. You have 1 minute."
+                    }
+                },
+                "runAfter": {
+                    "Delay_4": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Post_message_6": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['slack']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/chat.postMessage",
+                    "queries": {
+                        "channel": "CQSFHEWD8",
+                        "text": "Relight the candles. You have 5 minutes."
+                    }
+                },
+                "runAfter": {
+                    "Delay_5": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Post_message_7": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['slack']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/chat.postMessage",
+                    "queries": {
+                        "channel": "CQSFHEWD8",
+                        "text": "Deliver the coffee to Sister and Brother. You have 4 minutes."
+                    }
+                },
+                "runAfter": {
+                    "Delay_6": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Post_message_8": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['slack']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/chat.postMessage",
+                    "queries": {
+                        "channel": "CQSFHEWD8",
+                        "text": "Return to kitchen, take a break! You are done."
+                    }
+                },
+                "runAfter": {
+                    "Delay_7": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {},
+        "parameters": {
+            "$connections": {
+                "defaultValue": {},
+                "type": "Object"
+            }
+        },
+        "triggers": {
+            "Recurrence": {
+                "recurrence": {
+                    "frequency": "Month",
+                    "interval": 12,
+                    "startTime": "2019-12-13T08:00:00Z",
+                    "timeZone": "W. Europe Standard Time"
+                },
+                "type": "Recurrence"
+            }
+        }
+    },
+    "parameters": {
+        "$connections": {
+            "value": {
+                "slack": {
+                    "connectionId": "/subscriptions/6895d729-56cd-4e2e-a9d8-b212e5ddf08f/resourceGroups/lucys-dilemma/providers/Microsoft.Web/connections/slack",
+                    "connectionName": "slack",
+                    "id": "/subscriptions/6895d729-56cd-4e2e-a9d8-b212e5ddf08f/providers/Microsoft.Web/locations/northeurope/managedApis/slack"
+                }
+            }
+        }
+    }
+}
