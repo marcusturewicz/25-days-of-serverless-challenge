@@ -1,0 +1,14 @@
+{
+    "azureFunctions.deploySubpath": "target/azure-functions/Day-03-1575345227136/",
+    "azureFunctions.projectLanguage": "Java",
+    "azureFunctions.projectRuntime": "~2",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "package",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
