@@ -4,7 +4,7 @@
 
 Java Azure Function with HTTP trigger (GitHub webhook) with Table Storage as database.
 
-Push a .png file to https://github.com/marcusturewicz/animal-pics (preferably /pics folder) and the function will save them to table storage.
+Push a .png file to https://github.com/marcusturewicz/animal-pics (preferably /pics folder) and the function will save the URL to them in table storage.
 
 Table Storage
 ![Table Storage](images/TableStorage.png)
