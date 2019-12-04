@@ -6,3 +6,6 @@ Lucy's Dilemma, with Azure Logic App and Slack notifications to a channel
 
 ## [Day 03](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-03)
 Java Azure Function with HTTP trigger (GitHub webhook) with Table Storage as database.
+
+## [Day 04](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-04)
+TypeScript Azure Functions with async MongoDB data-access-layer.
