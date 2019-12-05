@@ -9,3 +9,6 @@ Java Azure Function with HTTP trigger (GitHub webhook) with Table Storage as dat
 
 ## [Day 04](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-04)
 TypeScript Azure Functions with async MongoDB data-access-layer.
+
+## [Day 05](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-05)
+Node.js Azure Function with Congitive Service (Translator Text + Text Analytics) using respective Node.js SDK's.
