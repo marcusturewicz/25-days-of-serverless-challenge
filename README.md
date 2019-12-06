@@ -12,3 +12,6 @@ TypeScript Azure Functions with async MongoDB data-access-layer.
 
 ## [Day 05](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-05)
 Node.js Azure Function with Congitive Service (Translator Text + Text Analytics) using respective Node.js SDK's.
+
+## [Day 06](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-06)
+TypeScript Azure Durable Functions with notifications to slack via webhook using Slack SDK.
