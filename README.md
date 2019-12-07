@@ -15,3 +15,6 @@ Node.js Azure Function with Congitive Service (Translator Text + Text Analytics)
 
 ## [Day 06](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-06)
 TypeScript Azure Durable Functions with notifications to slack via webhook using Slack SDK.
+
+## [Day 07](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-07)
+C# Azure Function with Unsplash image search using open source Unsplash SDK.
