@@ -1,0 +1,15 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+
+</div>
+
+<div class="content" role="main">
+
+  <div *ngIf="status">
+    <h2>Santa's Reindeer Guidance & Delivery System Status:</h2>
+    <h1 align="center"> {{status.status}} </h1>
+  </div>
+
+</div>
+
+<router-outlet></router-outlet>

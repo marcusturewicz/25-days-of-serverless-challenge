@@ -18,3 +18,6 @@ TypeScript Azure Durable Functions with notifications to slack via webhook using
 
 ## [Day 07](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-07)
 C# Azure Function with Unsplash image search using open source Unsplash SDK.
+
+## [Day 08](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-08)
+C# Azure Functions with Azure Storage of status data and SignalR service for real-time updates to an Angular app.
