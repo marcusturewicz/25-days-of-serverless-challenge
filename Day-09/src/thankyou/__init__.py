@@ -28,6 +28,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                          'We will take this on board and get back to you shortly!')
 
     return func.HttpResponse(
-        "Not an opened issue",
+        "Thank you",
         status_code=200
     )
