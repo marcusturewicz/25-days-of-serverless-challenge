@@ -4,7 +4,7 @@
 
 TypeScript Azure Durable Functions with notifications to slack via webhook using Slack SDK.
 
-This was the winning app for Challenge 6!
+[This was the winning app for Challenge 6!](https://twitter.com/jenlooper/status/1203352691927375873?s=20)
 
 ![](https://pbs.twimg.com/media/ELMq5LkXkAEpTE1?format=jpg&name=medium)
 
