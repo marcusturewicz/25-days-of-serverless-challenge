@@ -4,6 +4,10 @@
 
 TypeScript Azure Durable Functions with notifications to slack via webhook using Slack SDK.
 
+This was the winning app for Challenge 6!
+
+![](https://pbs.twimg.com/media/ELMq5LkXkAEpTE1?format=jpg&name=medium)
+
 ## Prerequisites
 1. Create a Slash Command in Slack, [docs here](https://api.slack.com/interactivity/slash-commands)
 2. Create an incoming webhook in Slack, [docs here](https://api.slack.com/apps/AR4871ZR7/incoming-webhooks?)
