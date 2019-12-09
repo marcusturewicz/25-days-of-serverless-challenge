@@ -4,6 +4,8 @@
 
 Python Azure Function triggered by GitHub webhook and thank you comment created with open source PyGithub pip package.
 
+Create issues in https://github.com/marcusturewicz/thankyou and you will be thanked by me, serverlessly, of course!
+
 ## Prerequisities
 1. Create personal access token, [docs here](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 
@@ -22,7 +24,7 @@ Python Azure Function triggered by GitHub webhook and thank you comment created 
     }
     }
 ```
-where `<<YOUR_GITHUB_REPO>> is in the form `username/repository` e.g. `marcusturewicz/thankyou`.
+    where `<<YOUR_GITHUB_REPO>>` is in the form `username/repository` e.g. `marcusturewicz/thankyou`.
 4. Run app (F5)
 5. Create an issue in your repo.
 5. POST the content of `issue-event.json`, make sure the issue number matches issue created above.
