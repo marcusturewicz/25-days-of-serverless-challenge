@@ -21,3 +21,6 @@ C# Azure Function with Unsplash image search using open source Unsplash SDK.
 
 ## [Day 08](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-08)
 C# Azure Functions with Azure Storage of status data and SignalR service for real-time updates to an Angular app.
+
+## [Day 09](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-09)
+Python Azure Function triggered by GitHub webhook and thank you comment created with open source PyGithub pip package.
