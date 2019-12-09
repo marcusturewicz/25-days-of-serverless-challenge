@@ -15,13 +15,13 @@ Create issues in https://github.com/marcusturewicz/thankyou and you will be than
 3. Create `src/local.settings.json` with the following content:
 ```json
     {
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "",
-        "FUNCTIONS_WORKER_RUNTIME": "python",
-        "GITHUB_PAT": "<<YOUR_GITHUB_PAT>>",
-        "GITHUB_REPO": "<<YOUR_GITHUB_REPO>>"
-    }
+        "IsEncrypted": false,
+        "Values": {
+            "AzureWebJobsStorage": "",
+            "FUNCTIONS_WORKER_RUNTIME": "python",
+            "GITHUB_PAT": "<<YOUR_GITHUB_PAT>>",
+            "GITHUB_REPO": "<<YOUR_GITHUB_REPO>>"
+        }
     }
 ```
     where `<<YOUR_GITHUB_REPO>>` is in the form `username/repository` e.g. `marcusturewicz/thankyou`.
@@ -34,7 +34,7 @@ Create issues in https://github.com/marcusturewicz/thankyou and you will be than
 1. Deploy to Azure using VS Code.
 2. Add the following appsettings:
 ```text
-    "GITHUB_PAT": "<<YOUR_GITHUB_PAT>>",
+    "GITHUB_PAT": "<<YOUR_GITHUB_PAT>>"
     "GITHUB_REPO": "<<YOUR_GITHUB_REPO>>"
 ```
 3. Create a GitHub webhook on the repository you want to create issues in, [docs here](https://developer.github.com/webhooks/creating). Put the function URL from Azure into the webhook URL.
