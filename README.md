@@ -26,4 +26,4 @@ C# Azure Functions with Azure Storage of status data and SignalR service for rea
 Python Azure Function triggered by GitHub webhook and thank you comment created with open source PyGithub pip package.
 
 ## [Day 10](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-10)
-Azure Logic App, Azure Blob Storage, Azure Statc Website with Vanilla JS.
+Azure Logic App, Azure Blob Storage, Azure Static Website with Vanilla JS.
