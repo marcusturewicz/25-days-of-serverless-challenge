@@ -75,7 +75,6 @@
 
   var today = new Date();
   var todayString = moment(today).format('YYYY-MM-DD');
-  console.log(todayString);
   getData(`https://dailydealsstorage.blob.core.windows.net/tweets?restype=container&comp=list&prefix=${todayString}&maxresults=20`, todayString);
 
 </script>
