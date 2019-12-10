@@ -51,8 +51,9 @@
       });
 
       var tweet = await response.json();
-      console.log(tweet);
       var text = tweet.TweetText;
+      if (text.startsWith("RT"))
+        continue;
       var tweetId = tweet.TweetId;
       var twitterUsername = tweet.UserDetails.UserName;
       var tweetUrl = `https://twitter.com/${twitterUsername}/status/${tweetId}`;
