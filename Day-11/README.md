@@ -5,6 +5,10 @@
 Three Azure Functions for adding new wishes, notifying to slack and querying wishes and an
 HTML page for posting new wishes via a UI. All deployed live to Azure.
 
+### Architecture:
+
+![](img/arch.jpg)
+
 ### UI: https://wishesstorage.z26.web.core.windows.net
 
 ![](img/ui.png)
