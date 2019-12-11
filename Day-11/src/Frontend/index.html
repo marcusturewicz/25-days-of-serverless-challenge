@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Daily Deals</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+    <style>
+        @media (min-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mx-auto my-auto" id="container">
+        <br>
+        <h1 id="heading" class="display-4">Add new wish</h1>
+        <form action="https://wishes-functionapp.azurewebsites.net/api/wishes" method="POST">
+            <div class="form-group">
+                <label for="desc">Description:</label>
+                <input class="form-control" placeholder="Enter a descrition" id="desc" name="desc" required>
+            </div>
+            <div class="form-group">
+                <label for="who">Name:</label>
+                <input class="form-control" placeholder="Enter your name" id="who" name="who" required>
+            </div>
+            <div class="form-group">
+                <label for="addr">Address:</label>
+                <input class="form-control" placeholder="Enter your address" id="addr" name="addr" required>
+            </div>
+            <div class="form-group">
+                <label for="type">Select list:</label>
+                <select class="form-control" id="type" name="type" required>
+                    <option>Toy</option>
+                    <option>Clothes</option>
+                    <option>Animal</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
