@@ -7,7 +7,7 @@ Javscript Azure Function to convert markdown Gist Xmas cards to HTML and cache i
 ## Usage
 Supply the GIST ID in the query string e.g.:
 
-`https://xmascard.azurewebsites.net/api/xmascard?card=e4a08e9719a262fa04e2ab74c886a522`
+https://xmascard.azurewebsites.net/api/xmascard?card=e4a08e9719a262fa04e2ab74c886a522
 
 ## Explanation
 The function will try to get the content from Redis. If found, the cached value is returned, otherwise the markdown content
