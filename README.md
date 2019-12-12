@@ -30,3 +30,6 @@ Azure Logic App, Azure Blob Storage, Azure Static Website with Vanilla JS.
 
 ## [Day 11](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-11)
 C# Azure Functions, Slack webhook and static HTML page.
+
+## [Day 12](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-12)
+Javscript Azure Function to convert markdown Gist Xmas cards to HTML and cache in Redis.
