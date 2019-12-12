@@ -2,7 +2,7 @@
 
 [CACHING](https://25daysofserverless.com/calendar/12)
 
-Javscript Azure Function to convert markdown Gist Xmas cards to HTML and cache in Redis.
+JavaScript Azure Function to convert markdown Gist Xmas cards to HTML and cache in Redis.
 
 ## Usage
 Supply the GIST ID in the query string e.g.:
