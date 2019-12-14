@@ -33,3 +33,9 @@ C# Azure Functions, Slack webhook and static HTML page.
 
 ## [Day 12](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-12)
 Javscript Azure Function to convert markdown Gist Xmas cards to HTML and cache in Redis.
+
+## [Day 13](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-13)
+RIP
+
+## [Day 14](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-14)
+C# Azure Functions, Azure SignalR Service and a Vue static website with Gravatar user icons.

@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container" id="app">
+        <h2>Conversation</h2>
+        <div v-for="message in messages">
+            <img v-bind:src="message.avatarUrl"/>
+            <strong>{{message.sender}}</strong> {{message.text}}
+        </div>   
+  
+        <div class="container fixed-bottom">
+            <hr>
+            <div class="form-group">
+                <label for="email">Username:</label>
+                <input type="text" class="form-control" v-model="user" placeholder="user name" />
+            </div> 
+            <div class="form-group">
+                <textarea type="text" class="form-control" v-model="newMessage" id="message-box" class="form-control"
+                    placeholder="Type message here..." autocomplete="off" rows="10"></textarea>
+            </div>               
+            <button class="btn btn-primary" @click="sendMessage">Send message</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@aspnet/signalr@1.1.2/dist/browser/signalr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.12.0/js/md5.min.js"></script>    
+    <script>
+        const data = {
+            user: '',
+            messages: [],
+            newMessage: ''
+        }
+
+        const app = new Vue({
+            el: '#app',
+            data: data,
+            methods: {
+                sendMessage() {
+                    createMessage(this.user, this.newMessage);
+                }
+            }
+        });
+
+        const apiBaseUrl = 'https://yulebookflood.azurewebsites.net';
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl(`${apiBaseUrl}/api`)
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        console.log('connecting...');
+        connection.start()
+            .then((response) => {
+                console.log('connection established', response);
+            })
+            .catch(logError);
+
+        connection.on('newMessage', newMessage);
+
+        function newMessage(message) {
+            data.messages = [...data.messages, { ...message }]
+        }
+
+        function logError(err) {
+            console.error('Error establishing connection', err);
+        }
+
+        function createMessage(sender, messageText) {
+            return axios.post(`${apiBaseUrl}/api/messages`, {
+                sender: sender,
+                text: messageText,
+                avatarUrl: "https://gravatar.com/avatar/" + md5(sender) + "?s=40&d=identicon&r=PG&f=1"
+            }).then(resp => {
+                console.log('message sent', resp);
+            });
+        }
+
+    </script>
+</body>
+
+</html>
