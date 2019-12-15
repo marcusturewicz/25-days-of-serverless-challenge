@@ -39,3 +39,6 @@ RIP
 
 ## [Day 14](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-14)
 C# Azure Functions, Azure SignalR Service and a Vue static website with Gravatar user icons.
+
+## [Day 15](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-15)
+Java Azure Function with Azure Cognitive Services Computer Vision.
