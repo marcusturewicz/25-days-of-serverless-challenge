@@ -8,7 +8,7 @@ Simulator working with IOT Hub:
 
 ![](img/sim.png)
 
-Tweet send from Azure Function: https://twitter.com/MarcusTurewicz/status/1206816038530084864
+Tweet sent from Azure Function: https://twitter.com/MarcusTurewicz/status/1206816038530084864
 
 ![](img/tweet.png)
 
