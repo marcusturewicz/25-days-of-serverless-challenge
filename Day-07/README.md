@@ -22,11 +22,10 @@ C# Azure Function with Unsplash image search using open source [Unsplash SDK](ht
     }
 ```
 2. Press F5
-3. Open browser and go to page http://localhost:7071/api/imagesearch?s=[search]
-    where [search] is your search string e.g. http://localhost:7071/api/imagesearch?s=soccer`
+3. Open browser and go to page http://localhost:7071/api/imagesearch/{search}
+    where [search] is your search string e.g. http://localhost:7071/api/imagesearch/soccer`
 4. File will be downloaded, see example of image below:
 ![soccer](soccer.png)
-
 
 ## To run in Azure
 1. Right click in VS Code left menu and click `Deploy to Function App...` 
