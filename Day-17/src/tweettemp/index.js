@@ -11,7 +11,7 @@ module.exports = async function (context, eventHubMessages) {
                 access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
                 access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
             });
-            client.post('statuses/update', { status: 'Temprature is ' + Math.round(message.temperature) + ': ready for the beach?' })
+            client.post('statuses/update', { status: 'Temperature is ' + Math.round(message.temperature) + ': ready for the beach?' })
                 .then(function (tweet) {
                     console.log(tweet);
                 })
