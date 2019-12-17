@@ -45,3 +45,6 @@ Java Azure Function with Azure Cognitive Services Computer Vision.
 
 ## [Day 16](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-16)
 Typescript Azure Function with Github Actions CI/CD.
+
+## [Day 17](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-17)
+Javascript Azure Function, Azure IOT Hub, Twitter App and Rasberry PI simulator.

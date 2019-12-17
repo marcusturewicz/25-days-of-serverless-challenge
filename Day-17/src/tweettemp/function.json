@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "eventHubMessages",
+      "direction": "in",
+      "eventHubName": "iothub-ehub-twittertem-2636767-8d19968212",
+      "connection": "EventHubConnection",
+      "cardinality": "many",
+      "consumerGroup": "$Default"
+    }
+  ]
+}
