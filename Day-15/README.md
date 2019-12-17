@@ -1,4 +1,4 @@
-# Day 15 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 15 of [25 days of serverless](https://25daysofserverless.com)
 
 [COGNITIVE SERVICES WITH COMPUTER VISION](https://25daysofserverless.com/calendar/15)
 

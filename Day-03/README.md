@@ -1,4 +1,4 @@
-# Day 03 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 03 of [25 days of serverless](https://25daysofserverless.com)
 
 [Secret Santa's Furry Friends](https://25daysofserverless.com/calendar/3)
 

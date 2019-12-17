@@ -1,4 +1,4 @@
-# Day 04 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 04 of [25 days of serverless](https://25daysofserverless.com)
 
 [API ENDPOINT](https://25daysofserverless.com/calendar/4)
 

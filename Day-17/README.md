@@ -1,4 +1,4 @@
-# Day 17 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 17 of [25 days of serverless](https://25daysofserverless.com)
 
 [IOT and Functions](https://25daysofserverless.com/calendar/17)
 

@@ -1,4 +1,4 @@
-# Day 11 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 11 of [25 days of serverless](https://25daysofserverless.com)
 
 [DATABASE TRIGGER](https://25daysofserverless.com/calendar/11)
 

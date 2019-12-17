@@ -1,6 +1,6 @@
-# [Day 02](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-02) of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 02 of [25 days of serverless](https://25daysofserverless.com)
 
-Lucy's Dilemma.
+[Lucy's Dilemma](https://25daysofserverless.com/calendar/2)
 
 Azure Logic App using schedule tasks and Slack post messages to a Slack channel.
 

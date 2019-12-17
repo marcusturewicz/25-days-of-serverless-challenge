@@ -1,4 +1,4 @@
-# Day 07 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 07 of [25 days of serverless](https://25daysofserverless.com)
 
 [API ENDPOINT - PICTURE CHALLENGE](https://25daysofserverless.com/calendar/7)
 

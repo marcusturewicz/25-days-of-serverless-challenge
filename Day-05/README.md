@@ -1,4 +1,4 @@
-# Day 05 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 05 of [25 days of serverless](https://25daysofserverless.com)
 
 [SMART APPS: Naught Or Nice](https://25daysofserverless.com/calendar/5)
 

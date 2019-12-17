@@ -1,4 +1,4 @@
-# Day 09 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 09 of [25 days of serverless](https://25daysofserverless.com)
 
 [AUTOMATE YOUR GITHUB ISSUES WITH HOLIDAY MAGIC](https://25daysofserverless.com/calendar/9)
 

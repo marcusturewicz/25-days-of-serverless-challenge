@@ -1,4 +1,4 @@
-# Day 08 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 08 of [25 days of serverless](https://25daysofserverless.com)
 
 [BUILD AN INCIDENT STATUS PAGE](https://25daysofserverless.com/calendar/8)
 

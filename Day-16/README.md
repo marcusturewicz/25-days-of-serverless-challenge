@@ -1,4 +1,4 @@
-# Day 16 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 16 of [25 days of serverless](https://25daysofserverless.com)
 
 [CI/CD](https://25daysofserverless.com/calendar/16)
 

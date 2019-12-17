@@ -1,4 +1,4 @@
-# Day 10 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 10 of [25 days of serverless](https://25daysofserverless.com)
 
 [TIMER TRIGGER](https://25daysofserverless.com/calendar/10)
 

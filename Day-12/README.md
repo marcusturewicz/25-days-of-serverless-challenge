@@ -1,4 +1,4 @@
-# Day 12 of [25 days of serverless](https://www.25daysofserverless.com)
+# Day 12 of [25 days of serverless](https://25daysofserverless.com)
 
 [CACHING](https://25daysofserverless.com/calendar/12)
 
