@@ -48,3 +48,6 @@ Typescript Azure Function with Github Actions CI/CD.
 
 ## [Day 17](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-17)
 Javascript Azure Function, Azure IOT Hub, Twitter App and Rasberry PI simulator.
+
+## [Day 18](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-18)
+C# Azure Function, Blob Trigger and Computer Vision
