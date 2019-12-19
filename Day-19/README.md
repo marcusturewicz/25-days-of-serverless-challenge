@@ -13,11 +13,11 @@ There's endpoints to receive data from the IOT devices as well as an endpoint to
 
 Start filling tank:
 
-![](img/stop.png)
+![](img/start.png)
 
 Stop filling tank:
 
-![](img/start.png)
+![](img/stop.png)
 
 Query tank:
 
