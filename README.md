@@ -51,3 +51,6 @@ Javascript Azure Function, Azure IOT Hub, Twitter App and Rasberry PI simulator.
 
 ## [Day 18](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-18)
 C# Azure Function, Blob Trigger and Computer Vision
+
+## [Day 19](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-19)
+C# Azure Functions with Durable Entities
