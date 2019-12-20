@@ -56,4 +56,4 @@ C# Azure Function, Blob Trigger and Computer Vision
 C# Azure Functions with Durable Entities
 
 ## [Day 20](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-20)
-C# Azure Function, Computer Vision, static website and static website.
+C# Azure Function, Computer Vision, static website and Slack notifications.
