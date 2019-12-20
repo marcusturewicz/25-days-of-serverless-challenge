@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>WebcamJS Test Page</title>
+	<style type="text/css">
+		body {
+			font-family: Helvetica, sans-serif;
+		}
+
+		h2,
+		h3 {
+			margin-top: 0;
+		}
+
+		form {
+			margin-top: 15px;
+		}
+
+		form>input {
+			margin-right: 15px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Gift detection website</h1>
+	<div id="my_camera"></div>
+
+	<!-- First, include the Webcam.js JavaScript Library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+	<!-- Configure a few settings and attach camera -->
+	<script language="JavaScript">
+		Webcam.set({
+			width: 640,
+			height: 380,
+			image_format: 'jpeg',
+			jpeg_quality: 90
+		});
+		Webcam.attach('#my_camera');
+
+		setInterval(take_snapshot, 2500)
+
+		function take_snapshot() {
+			// take snapshot and get image data
+			Webcam.snap(function (data_uri) {
+				(async () => {
+					await fetch('http://localhost:7071/api/analysegift', {
+						method: 'POST',
+						headers: {
+							'Accept': 'application/json',
+							'Content-Type': 'application/json'
+						},
+						body: data_uri.replace(/^data:image\/jpeg;base64,/, "")
+					});
+				})();
+			});
+		}
+	</script>
+
+</body>
+
+</html>
