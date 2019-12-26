@@ -60,3 +60,6 @@ C# Azure Function, Computer Vision, static website and Slack notifications.
 
 ## [Day 21](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-21)
 C# Azure Durable Entity Functions.
+
+## [Day 22](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-22)
+C# Azure Functions, Key Valut and Azure Storage.
