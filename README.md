@@ -63,3 +63,6 @@ C# Azure Durable Entity Functions.
 
 ## [Day 22](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-22)
 C# Azure Functions, Key Valut and Azure Storage.
+
+## [Day 23](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-23)
+JavaScript Azure Function, Azure Application Insights and email alerts.
