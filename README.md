@@ -69,3 +69,6 @@ JavaScript Azure Function, Azure Application Insights and email alerts.
 
 ## [Day 24](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-24)
 C# Azure Function, Key Vault and Twitter webhook.
+
+## [Day 25](https://github.com/marcusturewicz/25-days-of-serverless-challenge/tree/master/Day-25)
+C# Azure Function, Speech to Text and Blob Storage.
